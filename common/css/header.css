@@ -1,0 +1,32 @@
+#header-nav{
+    margin: 1.4rem auto;
+    padding: 0;
+}
+
+#header-nav .navbar-brand img{
+    margin-right: 3.7rem;
+}
+
+#header-nav .navbar-nav a{
+    font-size: 1.6rem;
+    /* font-weight: 600; */
+    color: #313131;
+    line-height: 1.6rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.15rem;
+    border-radius: 0.5rem;
+    transition:  .3s;
+}
+#header-nav .navbar-nav a:hover{
+    color: #fff;
+    background-color: #3c77e4;
+    border-radius: 1.5rem;
+}
+
+#header-nav .navbar-nav a.header-nav-active{
+    color: #fff;
+    background-color: #3c77e4;
+    border-radius: 1.5rem;
+}

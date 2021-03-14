@@ -1,0 +1,156 @@
+/* 页脚 */
+#footer {
+    width: 100%;
+    height: 30rem;
+    background-color: #2D3D63;
+}
+
+#footer .wrapper {
+    position: relative;
+    top: 2.8rem;
+    margin: 0 auto;
+    width: 74.5rem;
+    height: 12rem;
+    border-left: 0.1rem solid #707070;
+    border-right: 0.1rem solid #707070;
+}
+
+@media screen and (max-width:1115px) {
+    #footer .wrapper {
+        width: 60rem;
+    }
+
+    #footer .wrapper .contact-method {
+        left: 61.5rem;
+    }
+}
+
+#footer .footer-line {
+    width: 1rem;
+    height: 12rem;
+    color: #707070;
+}
+
+#footer .footer-content {
+    position: absolute;
+    top: 2.5rem;
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+
+#footer .footer-content .footer-title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+
+}
+
+#footer .footer-content p {
+    font-size: 1.6rem;
+}
+
+#footer .contact-method {
+    width: 16rem;
+    height: 12rem;
+    position: absolute;
+    left: 76rem;
+    /* font-size: 0; */
+    color: #D2D2D2;
+    margin-right: auto;
+}
+
+#footer .contact-method span {
+    font-size: 2rem;
+}
+
+#footer .contact-method p {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+#footer .contact-method button {
+    position: relative;
+    font-size: 1.4rem;
+    color: #D2D2D2;
+    width: 8.7rem;
+    height: 2.8rem;
+    border: 0.1rem solid #FFF;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    margin-top: 1.5rem;
+    transition: .3s;
+}
+
+#footer .contact-method button:hover {
+    background-color: #fff;
+    color: #2D3D63;
+}
+
+
+#footer .contact-method button::after {
+    position: absolute;
+    display: block;
+    content: "";
+    background-image: url(/common/images/wechat-s.png);
+    /* background-size:12rem; */
+    background-repeat: no-repeat;
+    width: 12rem;
+    height: 14rem;
+    left: 15.5rem;
+    top: -9.5rem;
+    transition: all .3s;
+    opacity: 0;
+    z-index: 2;
+}
+
+#footer .contact-method button:hover::after {
+    opacity: 1;
+    left: 17rem;
+    top: -9.5rem;
+}
+
+@media screen and (max-width:1380px) {
+    #footer .contact-method button::after {
+        left: -1rem;
+        top: 3rem;
+    }
+    #footer .contact-method button:hover::after {
+        left: -1rem;
+        top: 4rem;
+    }
+}
+
+#footer span.bottom-line {
+    width: 148.7rem;
+    border-top: 1px solid #A0A0A0;
+    position: absolute;
+    top: 14.7rem;
+}
+
+@media screen and (max-width:1505px) {
+    #footer span.bottom-line {
+        width: 130rem;
+    }
+}
+
+@media screen and (max-width:1320px) {
+    #footer span.bottom-line {
+        width: 110rem;
+    }
+}
+
+@media screen and (max-width:1120px) {
+    #footer span.bottom-line {
+        width: 90rem;
+    }
+}
+
+#footer .record {
+    position: absolute;
+    top: 19.1rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #fff;
+    text-align: center;
+}

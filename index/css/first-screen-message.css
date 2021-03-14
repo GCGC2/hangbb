@@ -1,0 +1,99 @@
+/* 服务资讯 */
+#message{
+    width: 100%;
+}
+
+/* 1.资讯导航区域 */
+.message-title ul {
+	position:relative;
+	margin:0 auto;
+	height:5.7rem;
+	font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: #85878A;
+    width: 70rem;
+    height:5.7rem;
+}
+
+.message-title ul li.active{
+	color: #1644B1;
+}
+.message-title li {
+	float:left;
+	text-align:center;
+	list-style:none;
+	cursor:pointer;
+}
+/* 导航下划线 */
+.head_line {
+	position:absolute;
+	left:6.25rem;
+	top:3.2rem;
+	width:2rem;
+	height:0.3rem;
+	background-color:#1644B1;
+}
+
+/* 2.资讯内容区域 */
+#message .message-content{
+	height: 52.5rem;
+	background-color: #F8F9FC;
+	margin-bottom: 15rem;
+}
+
+#message .message-content .content-wrapper{
+	width: 97rem ;
+	overflow: hidden;
+}
+
+/* #message .message-content .content-wrapper ul{
+	margin-left: -1rem;
+} */
+
+/* #message .message-content .content-wrapper li.list-wrapper{
+	padding-left: 2rem;
+} */
+
+
+#message .message-content ol{
+	width: 97rem;
+	margin: 3.4rem auto;
+}
+
+/* 文字部分容器 */
+#message .message-content span{
+	padding-left: 2.1rem;
+}
+
+
+#message .message-content span a{
+	text-decoration: none;
+	color: #000;
+	font-size: 1.4rem;
+	letter-spacing: 0.1rem;
+}
+
+#message .message-content h5{
+	padding: 0.3rem 0 1.1rem 0;
+	font-weight: 600;
+}
+
+/* 查看更多 */
+
+#message .message-content .message-more button{
+	width: 19rem;
+	height: 5rem;
+	border: 0.1rem solid #000;
+	border-radius: 1rem;
+	background-color: transparent;
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 5rem;
+	text-align: center;
+	transition: .3s;
+}
+#message .message-content .message-more button:hover{
+	background-color: #1644B1;
+	border-color: #1644B1;
+	color: #fff;
+}

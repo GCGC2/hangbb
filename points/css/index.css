@@ -1,0 +1,32 @@
+#header-bac {
+    position: relative;
+    height: 20rem;
+    background-image: url(/common/images/original/method1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    z-index: -2;
+    margin-bottom: 8rem;
+}
+
+#article{
+    width: 98.6rem;
+    /* padding-right: rem; */
+    margin: 0 auto;
+}
+
+#article .article-wrapper .article-content i{
+    text-indent: 2em;
+    display: block;
+}
+
+#article h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #313131;
+}
+#article h2{
+    font-size: 1.2rem;
+    color: #313131;
+    /* letter-spacing:0.2rem */
+}

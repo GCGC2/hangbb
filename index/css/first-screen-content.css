@@ -1,0 +1,153 @@
+/* 1.落户渠道区域 */
+/* 文字 */
+.word {
+    margin-top: 15rem;
+}
+
+.word p {
+    /* width: 176px; */
+    font-size: 2.8rem;
+    letter-spacing: 0.117rem;
+    font-weight: 700;
+    color: #313131;
+    line-height: 3rem;
+    margin-bottom: 1.3rem;
+    padding: 0;
+}
+
+.word i {
+    font-size: 1.4rem;
+    letter-spacing: 0.7rem;
+    font-weight: 400;
+    color: #A0A0A0;
+    line-height: 1.4rem;
+    margin-bottom: 5rem;
+}
+
+/* 图片区域 */
+/* 
+#picture .row{
+    margin: 0;
+}  */
+#picture .row div {
+    padding: 0 2.3rem;
+}
+
+#picture a {
+    text-decoration: none;
+    text-align: center;
+}
+
+#picture a:hover>p{
+    color: #1644B1;
+    font-weight: bold;
+}
+
+#picture a .img-div{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+
+}
+#picture a .img-div span{
+    position: absolute;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+    left: 0;
+    top: 35%;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+
+#picture a .img-div:hover>span{
+    display:block;
+    z-index: 2;
+}
+
+/* hover遮罩层 */
+#picture a .img-div:hover::after{
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius:10px;
+}
+
+
+#picture a img {
+    border-radius: 10px;
+}
+
+
+
+#picture a p {
+    font-size: 2rem;
+    color: #1A1816;
+    line-height: 2rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+/* hover遮罩层 */
+
+
+
+/* 2.保证板块 */
+#assure-bac{
+    position: relative;
+    margin-top: 10rem;
+    height: 30.5rem;
+    background-image: url(/common/images/assure.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    z-index: -2;
+}
+#assure-bac::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 40, .5);
+    z-index: -1;
+}
+
+
+#assure-bac .icon-text {
+    width: 90rem;
+    height: 30.5rem;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 100;
+}
+
+#assure-bac .icon-text p {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: #fff;
+    line-height: 3.3rem;
+    padding: 2.7rem 0;
+    z-index: 100;
+}
+
+/* #assure-bac .assure-icon{
+    position:absolute;
+} */
+
+/* 3.服务咨询 */
+#serve p {
+    width: 117px;
+}

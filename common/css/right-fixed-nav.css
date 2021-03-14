@@ -1,0 +1,35 @@
+#right-fixed-nav {
+    position: fixed;
+    width: 8rem;
+    height: 23.8rem;
+    top: 30%;
+    right: 0;
+    border-radius: 8px;
+}
+
+#right-fixed-nav .btn {
+    padding: 0;
+}
+
+#right-fixed-nav .btn a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #1644B1;
+    word-break: keep-all;
+    position: relative;
+    padding: 1.8rem 1.5rem;
+    box-sizing: border-box;
+    /* transition: .2s; */
+    text-decoration: none;
+    cursor: pointer;
+    font-style: none;
+}
+
+#right-fixed-nav .btn a span {
+    font-size: 2.5rem;
+}
+
+#right-fixed-nav .btn a i {
+    font-size: 1.2rem;
+}
